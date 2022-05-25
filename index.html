@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <div class="wrapper">
+                <div id="burger-menu">
+                    <span></span>
+                </div>
+                <div id="menu">
+                    <ul class="header-nav-ul">
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Отзывы</a></li>
+                        <li><a href="#">Вопрос - ответ</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header-main">
+            <div class="wrapper">
+                <div class="flex">
+                    <div class="logo">
+                        <img src="img/logo.svg" alt="Logo" class="logo-image">
+                        <h1 class="heading">BEAUTY</h1>
+                    </div>
+                    <div class="info">
+                        <span class="phone">8 (812) 123-45-67</span>
+                        <div class="popup">
+                            <div class="popup__container">
+                                <button type="button" class="close-button"></button>
+                                <form method="post">
+                                    <h2 class="popup__title">Get started in minutes</h2>
+                                    <p class="popup__text">First, let's create your account. Once your account has been
+                                        created you can choose
+                                        the billing plan that is right for you and link your account with a server
+                                        provider.
+                                    </p>
+                                    <label for="name" class="label">Name</label>
+                                    <input type="text" name="name" class="input" required>
+
+                                    <label for="email" class="label">Email</label>
+                                    <input type="email" name="email" class="input" required>
+
+                                    <label for="tel" class="label">Number</label>
+                                    <input type="tel" name="tel" class="input" required>
+
+                                    <div class="agree">
+                                        <input type="checkbox" class="checkbox">
+                                        <p class="agreement">I agree to the <a href="#">Terms of Service</a> and <a
+                                                href="#">Privacy
+                                                Policy</a></p>
+                                    </div>
+
+                                    <button type="submit" class="registerbtn">Register</button>
+                            </div>
+                            </form>
+                        </div>
+                        <button type="button" class="btn">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-nav">
+            <div class="wrapper">
+                <ul>
+                    <li><a href="#">Парикмахерская</a></li>
+                    <li><a href="#">Барбершоп</a></li>
+                    <li><a href="#">Маникюр</a></li>
+                    <li><a href="#">Педикюр</a></li>
+                    <li><a href="#">Массаж</a></li>
+                    <li><a href="#">Мебель</a></li>
+                </ul>
+            </div>
+        </div>
+        <section class="main-tool">
+            <div class="wrapper">
+                <span class="subheading">Супер кресло</span>
+                <p>Текст акции всегда отражает суть, а не просто болтовню, поэтому внимательнее</p>
+                <button type="button" class="main-btn">Подробнее</button>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="wrapper">
+                <div class="catalog-flex">
+                    <h2 class="catalog-heading">Специальные предложения</h2>
+                    <img src="img/car.svg" alt="Car" class="catalog-image">
+                </div>
+                <div class="catalog-flex">
+                    <div class="catalog-item">
+                        <div class="catalog-item-content">
+                            <img src="img/chair.png" alt="Chair">
+                            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+                            <span>9 900 ₽</span>
+                            <button type="button" class="purchase">Купить</button>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item-content">
+                            <img src="img/chair.png" alt="Chair">
+                            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+                            <span>9 900 ₽</span>
+                            <button type="button" class="purchase">Купить</button>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item-content">
+                            <img src="img/chair.png" alt="Chair">
+                            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+                            <span>9 900 ₽</span>
+                            <button type="button" class="purchase">Купить</button>
+                        </div>
+                    </div>
+                    <div class="catalog-item">
+                        <div class="catalog-item-content">
+                            <img src="img/chair.png" alt="Chair">
+                            <p>Парикмахерское кресло «Норм» гидравлическое</p>
+                            <span>9 900 ₽</span>
+                            <button type="button" class="purchase">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog-flex">
+                    <div class="present">
+                        <div class="present-left">
+                            <h3>Получайте бонусы и подарки</h3>
+                            <p>Каждый месяц разыгрываем <br> 10 000 рублей для наших клиентов</p>
+                            <input type="email" placeholder="Введите e-mail" class="email">
+                        </div>
+                        <div class="present-right">
+                            <img src="img/letter.svg" alt="Letter" class="letter">
+                        </div>
+                    </div>
+                    <div class="invitation">
+                        <h3>Заходите к нам</h3>
+                        <p>Более 300 магазинов <br> по всей России</p>
+                        <button class="map">Карта магазинов</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="wrapper">
+                <div class="social">
+                    <div class="social-net">
+                        <div class="social-item social-item-1">
+                            <a href="#">
+                                <img src="img/youtube.svg" alt="Youtube">
+                            </a>
+                        </div>
+                        <div class="social-item social-item-2">
+                            <a href="#">
+                                <img src="img/vk.svg" alt="Vkontakte">
+                            </a>
+                        </div>
+                        <div class="social-item social-item-3">
+                            <a href="#">
+                                <img src="img/facebook.svg" alt="Facebook">
+                            </a>
+                        </div>
+                        <div class="social-item social-item-4">
+                            <a href="#">
+                                <img src="img/instagram.svg" alt="Instagram">
+                            </a>
+                        </div>
+                    </div>
+                    <span class="social-address">198555, Невский пр. 140, офис 140</span>
+                    <div class="social-contact">
+                        <span class="tel">8 (812) 123-45-67</span>
+                        <div class="popup">
+                            <div class="popup__container">
+                                <button type="button" class="close-button"></button>
+                                <h2 class="popup__title">A cat popup</h2>
+                                <img class="popup__image" src="https://i.imgur.com/CYJ0KLR.jpg" alt="A cute cat">
+                            </div>
+                        </div>
+                        <button type="button" class="btn">Обратный звонок</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <div class="description">
+                    <p>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</p>
+                    <span>Политика конфиденциальности</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
